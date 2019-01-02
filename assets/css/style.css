@@ -3,4 +3,6 @@ body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif, 'helvetica neue';
     background-image: url("../images/veggies.jpg");
+    background-size: 1950px 1000px;
+    background-repeat: no-repeat;
 }
