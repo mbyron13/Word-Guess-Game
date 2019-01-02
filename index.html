@@ -11,29 +11,26 @@
     <!-- Load Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <!-- Load Cloudflare for jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
     <!-- Load Bootsrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <!-- Load Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/main.css" type="text/css">
-    <title>Stack Starter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <script src="./assets/javascript/game.js"></script>
+    <title>Veggie Word Guess</title>
 
 </head>
 
 <body>
-    <h1>Stack Starter</h1>
+<div class= "container">
+    <div class ="jumbotron mt-3">
+        <p class ="text-center">Press a key to get started!</p>
 
-
-
-
-
-
-
-
-    <script src="./assets/scripts/main.js"></script>
+        <div class="text-center">the word is: <span id="answer"></span></div>
+        <div class="text-center">chances left: <span id="chances">8</span></div>
+        <div class="text-center">letters used:<span id ="lettersUsed"></span></div>
+    </div>
+</div>
 </body>
 
 </html>
